@@ -1,0 +1,38 @@
+{
+  "name": "typeorm-typescript-mongo-example",
+  "version": "0.0.1",
+  "description": "Example how to use TypeORM with MongoDB using TypeScript.",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Umed Khudoiberdiev",
+    "email": "pleerock.me@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typeorm/typescript-mongo-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/typeorm/typescript-mongo-example/issues"
+  },
+  "tags": [
+    "orm",
+    "typescript",
+    "typescript-orm",
+    "typeorm-sample",
+    "typeorm-example"
+  ],
+  "devDependencies": {
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.29",
+    "mongodb": "^2.2.31",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.1.0-alpha.49"
+  },
+  "scripts": {
+    "start": "tsc && node src/index.js",
+    "typeorm": "./node_modules/.bin/typeorm -v"
+  }
+}
