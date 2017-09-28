@@ -1,4 +1,4 @@
-# Example how to use TypeORM with MongoDB usign TypeScript
+# Example how to use TypeORM with MongoDB using TypeScript
 
 1. clone repository 
 2. run `npm i`
