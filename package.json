@@ -29,7 +29,7 @@
     "@types/node": "^8.0.29",
     "mongodb": "^2.2.31",
     "reflect-metadata": "^0.1.10",
-    "typeorm": "0.1.0-alpha.49"
+    "typeorm": "^0.1.0"
   },
   "scripts": {
     "start": "tsc && node src/index.js",
